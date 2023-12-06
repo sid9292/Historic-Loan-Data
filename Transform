@@ -1,0 +1,21 @@
+DELETE FROM [dbo].[hmda_2017_nationwide_all-records_labels]
+WHERE applicant_race_name_1 IS NULL
+   OR applicant_race_1 IS NULL
+   OR applicant_race_name_2 IS NULL
+   OR applicant_race_2 IS NULL
+   OR applicant_race_name_3 IS NULL
+   OR applicant_race_3 IS NULL
+   OR applicant_race_name_4 IS NULL
+   OR applicant_race_4 IS NULL
+   OR applicant_race_name_5 IS NULL
+   OR applicant_race_5 IS NULL
+   OR co_applicant_race_name_1 IS NULL
+   OR co_applicant_race_1 IS NULL
+   OR co_applicant_race_name_2 IS NULL
+   OR co_applicant_race_2 IS NULL
+   OR co_applicant_race_name_3 IS NULL
+   OR co_applicant_race_3 IS NULL
+   OR co_applicant_race_name_4 IS NULL
+   OR co_applicant_race_4 IS NULL
+   OR co_applicant_race_name_5 IS NULL
+   OR co_applicant_race_5 IS NULL;
